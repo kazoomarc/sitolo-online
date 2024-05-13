@@ -1,7 +1,7 @@
-import "./App.css";
+import './App.css';
 
 function App() {
-  return <div className="App">SITOLO ONLINE</div>;
+  return <div className="font-extrabold">SITOLO ONLINE</div>;
 }
 
 export default App;
