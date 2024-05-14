@@ -8,6 +8,7 @@ import Terminal from './components/terminal/terminal';
 import Signup from './components/signup/signup';
 import Dashboard from './components/dashboard/dashboard';
 import Team from './components/team/team';
+import Docs from './components/docs/docs';
 
 const { createBrowserRouter } = require('react-router-dom');
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: '/dashboard',
     element: <Dashboard />,
+  },
+  {
+    path: '/docs',
+    element: <Docs />,
   },
   {
     path: '/login',
