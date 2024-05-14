@@ -4,32 +4,32 @@ export default function NavTop(props) {
   return (
     <>
       <h1 className="heading-1">{props.title}</h1>
-      <ul className="Nav-links">
-        <li>
+      <ul className="nav-links">
+        <li className="link-item">
           <NavLink to="/docs">docs</NavLink>
         </li>
-        <li>
+        <li className="link-item">
           <NavLink to="/login">login</NavLink>
         </li>
-        <li>
+        <li className="link-item">
           <NavLink to="/marketplace">marketplace</NavLink>
         </li>
-        <li>
+        <li className="link-item">
           <NavLink to="/pricing">pricing</NavLink>
         </li>
-        <li>
+        <li className="link-item">
           <NavLink to="/products">products</NavLink>
         </li>
-        <li>
+        <li className="link-item">
           <NavLink to="/settings">settings</NavLink>
         </li>
-        <li>
+        <li className="link-item">
           <NavLink to="/signup">signup</NavLink>
         </li>
-        <li>
+        <li className="link-item">
           <NavLink to="/team">team</NavLink>
         </li>
-        <li>
+        <li className="link-item">
           <NavLink to="/terminal">terminal</NavLink>
         </li>
       </ul>
