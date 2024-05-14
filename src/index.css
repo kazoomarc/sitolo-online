@@ -14,9 +14,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#root {
+  margin: 0 80px;
 }
 .heading-1 {
   font-size: 40px;
@@ -30,3 +29,23 @@ code {
 .link-item {
   padding: 6px;
 }
+
+.fancy-button {
+  color: white;
+  background-color: black;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 12px 0;
+}
+
+.input-box {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+/* onfocus and shh on button and input */

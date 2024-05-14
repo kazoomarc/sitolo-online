@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import { Button } from '../assets/button';
 
 export default function NavTop(props) {
   return (
@@ -31,6 +32,12 @@ export default function NavTop(props) {
         </li>
         <li className="link-item">
           <NavLink to="/terminal">terminal</NavLink>
+        </li>
+        <li className="link-item">
+          <Button text="login" />
+        </li>
+        <li className="link-item">
+          <Button text="signup" />
         </li>
       </ul>
     </>
