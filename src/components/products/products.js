@@ -1,8 +1,10 @@
+// import { NavLink } from 'react-router-dom';
+import NavTop from '../../common-components/top-nav';
+
 export default function Products() {
   return (
     <>
-      <div></div>
-      <h1>products</h1>
+      <NavTop title="products" />
     </>
   );
 }
