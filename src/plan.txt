@@ -11,6 +11,7 @@
  * profile-card
  *
  * DESIGN
+ * color-scheme:: danger, 
  * team page
  * docs page
  *
@@ -21,4 +22,12 @@
  * TODO:
  * update the readme of the site
  * repo public or private?
+ *
+ *
+ *
+  container>
+  div form
+  -- form
+      --h1
+
  */
