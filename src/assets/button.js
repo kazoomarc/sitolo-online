@@ -1,7 +1,8 @@
+// primary black button
 export function Button(props) {
   return (
     <button
-      className="fancy-button"
+      className="inline-flex justify-center rounded-lg text-sm font-semibold py-2 px-4 bg-slate-900 text-white hover:bg-slate-700 pointer-events-auto"
       onClick={props.onClick}
       style={{
         backgroundColor: props.bg,
@@ -9,7 +10,24 @@ export function Button(props) {
         width: props.width + 'px',
       }}
     >
-      {props.text}
+      <span>{props.text}</span>
+    </button>
+  );
+}
+
+// primary shadowed button
+export function ButtonBordered(props) {
+  return (
+    <button
+      className="pointer-events-auto rounded-lg px-4 py-2 text-center text-sm font-semibold shadow-sm ring-1 ring-slate-700/10 hover:bg-slate-50"
+      onClick={props.onClick}
+      style={{
+        backgroundColor: props.bg,
+        // color: props.color,
+        width: props.width + 'px',
+      }}
+    >
+      <span>{props.text}</span>
     </button>
   );
 }
