@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 // primary black button
 export function Button(props) {
   return (
@@ -10,7 +12,7 @@ export function Button(props) {
         width: props.width,
       }}
     >
-      <span>{props.text}</span>
+      <NavLink to={props.link}>{props.text}</NavLink>
     </button>
   );
 }
@@ -27,7 +29,7 @@ export function ButtonBordered(props) {
         width: props.width,
       }}
     >
-      <span>{props.text}</span>
+      <NavLink to={props.link}>{props.text}</NavLink>
     </button>
   );
 }
