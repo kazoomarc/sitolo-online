@@ -2,50 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-#root {
-  margin: 0 80px;
-}
 .heading-1 {
   font-size: 40px;
-}
-.nav-links {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.link-item {
-  padding: 6px;
-}
-
-.fancy-button {
-  color: white;
-  background-color: black;
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 8px;
-  margin: 12px 0;
-}
-
-.input-box {
-  color: black;
-  background-color: white;
-  border: 1px solid black;
-  padding: 10px 20px;
-  border-radius: 8px;
-  margin: 8px 0;
 }
 
 /* onfocus and shh on button and input */
