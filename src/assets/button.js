@@ -7,7 +7,7 @@ export function Button(props) {
       style={{
         backgroundColor: props.bg,
         color: props.color,
-        width: props.width + 'px',
+        width: props.width,
       }}
     >
       <span>{props.text}</span>
@@ -24,7 +24,7 @@ export function ButtonBordered(props) {
       style={{
         backgroundColor: props.bg,
         // color: props.color,
-        width: props.width + 'px',
+        width: props.width,
       }}
     >
       <span>{props.text}</span>
