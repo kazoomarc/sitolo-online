@@ -1,0 +1,24 @@
+/*
+ * ASSETS
+ * card
+ * chech-box
+ * pearl-btn
+ * --
+ * control btns
+ *
+ * COMMON ASSETS
+ * side bar
+ * profile-card
+ *
+ * DESIGN
+ * team page
+ * docs page
+ *
+ * INSTALL
+ * hero icons
+ *
+ *
+ * TODO:
+ * update the readme of the site
+ * repo public or private?
+ */
