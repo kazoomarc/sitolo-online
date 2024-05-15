@@ -40,7 +40,7 @@ export function SignupForm() {
         </div>
 
         <div className="mt-8">
-          <Button text="SIGN UP" width="100%" />
+          <Button text="SIGN UP" width="100%" link="/signup" />
         </div>
       </form>
     </>

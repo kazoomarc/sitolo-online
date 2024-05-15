@@ -26,7 +26,7 @@ export function Hero() {
             Empower Your Businesses with smart, easy to setup invetory
             management system and point of Sale terminal
           </span>
-          <Button text="SIGN UP" width="100px" />
+          <Button text="SIGN UP" width="100px" link="/signup" />
         </div>
       </div>
     </>
