@@ -1,16 +1,15 @@
 import { NavLink } from 'react-router-dom';
 import NavTop from '../../common-components/top-nav';
 import { Button } from '../../assets/button';
+import MainWrapper from '../../common-components/main-wrapper';
 
 export default function Home() {
   return (
     <>
       <NavTop title="Home" />
-      <div className="">
-        <div className="max-w-6xl mx-auto px-8 overflow-hidden-d">
-          <Hero />
-        </div>
-      </div>
+      <MainWrapper>
+        <Hero />
+      </MainWrapper>
     </>
   );
 }
@@ -27,7 +26,7 @@ export function Hero() {
             Empower Your Businesses with smart, easy to setup invetory
             management system and point of Sale terminal
           </span>
-          <Button text="SIGN UP" width="100" />
+          <Button text="SIGN UP" width="100px" />
         </div>
       </div>
     </>
