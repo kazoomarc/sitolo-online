@@ -8,3 +8,7 @@ export default function Signup() {
     </>
   );
 }
+
+export function SignupForm() {
+  return;
+}

@@ -4,7 +4,7 @@ import NavTop from '../../common-components/top-nav';
 export default function Dashboard() {
   return (
     <>
-      <NavTop title="Dashboard" />
+      <NavTop />
     </>
   );
 }
