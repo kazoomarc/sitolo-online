@@ -1,8 +1,8 @@
 /*
  * ASSETS
- * card
- * chech-box
- * pearl-btn
+ * 
+ * check-box
+ * 
  * --
  * control btns
  *
