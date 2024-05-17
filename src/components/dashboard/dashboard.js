@@ -8,6 +8,7 @@ export default function Dashboard() {
       <NavTop />
       <MainWrapper>
         <h1>store summary</h1>
+        <span>subtittle</span>
       </MainWrapper>
     </>
   );
