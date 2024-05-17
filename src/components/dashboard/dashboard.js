@@ -6,7 +6,9 @@ export default function Dashboard() {
   return (
     <>
       <NavTop />
-      <MainWrapper></MainWrapper>
+      <MainWrapper>
+        <h1>store summary</h1>
+      </MainWrapper>
     </>
   );
 }
