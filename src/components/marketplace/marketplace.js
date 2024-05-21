@@ -26,11 +26,29 @@ export default function Marketplace() {
                 THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS IN
                 THE THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS
                 IN THE STOCK
+                
               </p>
               <span className="pt-14">
                 <Button
                   text="reserved"
                   classname="flex flex-col w-1/4 flex-center pt-10"
+                ></Button>
+              </span>
+            </span>
+          </div>
+          <div className=" src\assets\images\img1.png ">
+            {" "}
+            <span className=" flex flex-row ">
+              <img className="w-1/4 h-24 p-15 " src=" " alt="item"></img>
+              <p className=" w-1/2  font-bold p-10">
+                THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS IN
+                THE THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS
+                IN THE STOCK
+              </p>
+              <span className="pt-14">
+                <Button
+                  text="reserved"
+                  classname="flex flex-col w-1/4 flex-center pt-14"
                 ></Button>
               </span>
             </span>
