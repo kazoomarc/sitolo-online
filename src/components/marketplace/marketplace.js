@@ -3,7 +3,7 @@ import NavTop from "../../common-components/top-nav";
 import MainWrapper from "../../common-components/main-wrapper";
 import Card from "../../assets/card";
 import { Button } from "../../assets/button";
-import Image from "../../assets/image";
+import images from "../../src/assets/images/img1.png";
 
 export default function Marketplace() {
   return (
@@ -17,16 +17,12 @@ export default function Marketplace() {
           <div className="  ">
             {" "}
             <span className=" flex flex-row ">
-              <img
-                className="w-1/4 h-24 p-15 "
-                src="C:\Users\B e n j a m i n H\Desktop\Git\Group26\sitolo-online\src\assets\images\img1.png"
-                alt="item"
-              ></img>
+              <img src={images} alt="item" className="w-full h-auto" />
+
               <p className=" w-1/2  font-bold p-10">
                 THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS IN
                 THE THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS
-                IN THE STOCK
-                
+                IN THE STOCK Price k5,000
               </p>
               <span className="pt-14">
                 <Button
