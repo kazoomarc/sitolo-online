@@ -86,12 +86,7 @@ export default function NavTop(props) {
                 >
                   <path
                     fillRule="evenodd"
-                    d="M11.47 13.28a.75.75 0 0 0 1.06 0l7.5-7.5a.75.75 0 0 0-1.06-1.06L12 11.69 5.03 4.72a.75.75 0 0 0-1.06 1.06l7.5 7.5Z"
-                    clipRule="evenodd"
-                  />
-                  <path
-                    fillRule="evenodd"
-                    d="M11.47 19.28a.75.75 0 0 0 1.06 0l7.5-7.5a.75.75 0 1 0-1.06-1.06L12 17.69l-6.97-6.97a.75.75 0 0 0-1.06 1.06l7.5 7.5Z"
+                    d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z"
                     clipRule="evenodd"
                   />
                 </svg>
@@ -101,19 +96,21 @@ export default function NavTop(props) {
         </div>
 
         {/* (//menu mob)  */}
-        <div className="mobile-menu hidden">
-          <a href="/home" className="block py-2 px-4 text-sm hover:bg-gray-200">
-            home
-          </a>
-          <a href="/home" className="block py-2 px-4 text-sm hover:bg-gray-200">
-            marketplace
-          </a>
-          <a href="/home" className="block py-2 px-4 text-sm hover:bg-gray-200">
-            docs
-          </a>
-          <a href="/home" className="block py-2 px-4 text-sm hover:bg-gray-200">
-            team
-          </a>
+        <div className="mobile-menu px-8 hidden flex items-center space-x-4 text-gray-700">
+          <NavLink to="/marketplace" className="py-5 px-1 hover:text-gray-900">
+            Marketplace
+          </NavLink>
+
+          <NavLink to="/products" className="py-5 px-1 hover:text-gray-900">
+            Products
+          </NavLink>
+          <NavLink to="/settings" className="py-5 px-1 hover:text-gray-900">
+            Settings
+          </NavLink>
+
+          <NavLink to="/terminal" className="py-5 px-1 hover:text-gray-900">
+            Terminal
+          </NavLink>
         </div>
       </nav>
     </>
