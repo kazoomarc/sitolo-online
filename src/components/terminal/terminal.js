@@ -7,16 +7,16 @@ import { Button } from '../../assets/button';
 import React, { useState } from 'react';
 
 const productData = [
-  { id: 1, product: 'Product 1', price: 10.99 },
-  { id: 2, product: 'Product 2', price: 15.99 },
-  { id: 3, product: 'Product 3', price: 8.99 },
-  { id: 4, product: 'Product 4', price: 12.99 },
-  { id: 5, product: 'Product 5', price: 7.99 },
-  { id: 6, product: 'Product 6', price: 9.99 },
-  { id: 7, product: 'Product 7', price: 11.99 },
-  { id: 8, product: 'Product 8', price: 14.99 },
-  { id: 9, product: 'Product 9', price: 6.99 },
-  { id: 10, product: 'Product 10', price: 13.99 },
+  { id: 1, product: 'Product 1', price: 1000.99 },
+  { id: 2, product: 'Product 2', price: 1500.99 },
+  { id: 3, product: 'Product 3', price: 80000.99 },
+  { id: 4, product: 'Product 4', price: 1200.99 },
+  { id: 5, product: 'Product 5', price: 700.99 },
+  { id: 6, product: 'Product 6', price: 900.99 },
+  { id: 7, product: 'Product 7', price: 1100.99 },
+  { id: 8, product: 'Product 8', price: 1400.99 },
+  { id: 9, product: 'Product 9', price: 600.99 },
+  { id: 10, product: 'Product 10', price: 1300.99 },
 ];
 
 const ProductTableRow = ({ product, handleSelectProduct }) => {
@@ -97,11 +97,7 @@ export default function Terminal() {
       <MainWrapper>
         <div className="search w-80 flex items-center space-x-2">
           <div>
-            <input
-              type="text"
-              placeholder="Search for product"
-              className="w-full"
-            />
+            <InputBox text="Search for product" className="w-full" />
           </div>
           <div>
             <Button text="Search" />
@@ -154,18 +150,27 @@ function CustomerChoiceTable(props) {
                   key={product.id}
                   product={product}
                   index={index}
-                  handleQuantityChange={props.andleQuantityChange}
+                  handleQuantityChange={props.handleQuantityChange}
                   handleRemoveProduct={props.handleRemoveProduct}
                 />
               ))}
+              <tr>
+                <td className="w-1/5 p-2  border-slate-600 border text-left"></td>
+                <td className="w-1/5 p-2 border-slate-600 border text-left"></td>
+                <td className="w-1/5 p-2 border-slate-600 border text-left text">
+                  Total Amount
+                </td>
+                <td className="w-1/5 p-2 border-slate-600 border text-left">
+                  {`(Total: MWK ${props.totalAmount.toFixed(2)})`}
+                </td>
+                <td className="w-1/5 p-2 border-slate-600 border text-left"></td>
+              </tr>
             </tbody>
           </table>
         </div>
         <div className="flex flex-row-reverse">
           <div className="py-6">
-            <Button
-              text={`SEND RECEIPT (Total: $${props.totalAmount.toFixed(2)})`}
-            />
+            <Button text="SEND RECEIPT" />
           </div>
         </div>
       </div>
