@@ -33,63 +33,42 @@ export default function NavTop(props) {
               </div>
               {/* (// primary nav) */}
               <div className="hidden md:flex items-center space-x-4 text-gray-700">
-                <NavLink to="/docs" className="py-5 px-1 hover:text-gray-900">
-                  docs
-                </NavLink>
-                <NavLink to="/login" className="py-5 px-1 hover:text-gray-900">
-                  login
-                </NavLink>
                 <NavLink
                   to="/marketplace"
                   className="py-5 px-1 hover:text-gray-900"
                 >
-                  marketplace
+                  Marketplace
                 </NavLink>
-                <NavLink
-                  to="/pricing"
-                  className="py-5 px-1 hover:text-gray-900"
-                >
-                  pricing
-                </NavLink>
+
                 <NavLink
                   to="/products"
                   className="py-5 px-1 hover:text-gray-900"
                 >
-                  products
+                  Products
                 </NavLink>
                 <NavLink
                   to="/settings"
                   className="py-5 px-1 hover:text-gray-900"
                 >
-                  settings
+                  Settings
                 </NavLink>
-                <NavLink to="/signup" className="py-5 px-1 hover:text-gray-900">
-                  signup
-                </NavLink>
-                <NavLink to="/team" className="py-5 px-1 hover:text-gray-900">
-                  team
-                </NavLink>
+
                 <NavLink
                   to="/terminal"
                   className="py-5 px-1 hover:text-gray-900"
                 >
-                  terminal
+                  Terminal
                 </NavLink>
               </div>
             </div>
 
             {/* (// secondary nav )  */}
             <div className="hidden md:flex items-center space-x-1">
-              <a href="/login" className="py-5 px-3  hover:text-gray-900">
-                <Button text="LOG IN" />
-              </a>
-              <a
-                href="/signup"
-                // className="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300"
-              >
-                <ButtonBordered text="SIGN UP" />
-              </a>
+              <Button text="LOG IN" link="/login" />
+
+              <ButtonBordered text="SIGN UP" link="/signup" />
             </div>
+
             <div className="md:hidden flex items-center">
               <button
                 className="mobile-menu-btn"
