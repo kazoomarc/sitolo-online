@@ -13,8 +13,7 @@ export default function Dashboard(props) {
           content here
         </Card>
      
-        <PageDashboard />   
-        <button
+        <PageDashboard />   <button
           className="inline-flex justify-center rounded-lg text-sm font-semibold py-2 px-4 bg-slate-900 text-white hover:bg-slate-700 pointer-events-auto"
           onClick={props.onClick}
           style={{
@@ -55,5 +54,3 @@ function PageDashboard() {
 
   );
 }
-
-
