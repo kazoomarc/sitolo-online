@@ -13,10 +13,14 @@ export default function Dashboard(props) {
           content here
         </Card>
      
-        <PageDashboard />   <button
+        <PageDashboard />   
+        <button
           className="inline-flex justify-center rounded-lg text-sm font-semibold py-2 px-4 bg-slate-900 text-white hover:bg-slate-700 pointer-events-auto"
           onClick={props.onClick}
-          style={{ backgroundColor: 'red', color: props.color, width: props.width,
+          style={{
+            backgroundColor: 'blue',
+            color: props.color,
+            width: props.width,
           }
         }
         >
@@ -34,7 +38,7 @@ function PageDashboard() {
         <h2>Shop Dashboard</h2>
         <ul>
           <li>Overview</li>
-          <li>Reserved</li>
+          <li>Orders</li>
           <li>Products</li>
           <li>Customers</li>
           <li>Customer's phone number</li>
@@ -43,7 +47,8 @@ function PageDashboard() {
       <div className="main-content">
         <h2>STORE SUMMARY</h2>
         <div className="overview-content">
-          <p>HERE IS THE SUMMARY FOR OUR STORE.</p>
+          {/* Placeholder content for the overview */}
+          <p>THE STORE SUMMARY.</p>
         </div>
       </div>
     </div>
