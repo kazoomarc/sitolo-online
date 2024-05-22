@@ -3,7 +3,6 @@ import NavTop from "../../common-components/top-nav";
 import MainWrapper from "../../common-components/main-wrapper";
 import Card from "../../assets/card";
 import { Button } from "../../assets/button";
-import images from "../../src/assets/images/img1.png";
 
 export default function Marketplace() {
   return (
@@ -14,10 +13,9 @@ export default function Marketplace() {
           SITOLO Marketplace
         </h1>
         <Card width="100%">
-          <div className="  ">
-            {" "}
+          <div className="pb-12 pl-14 pt-14 rounded-md ">
             <span className=" flex flex-row ">
-              <img src={images} alt="item" className="w-full h-auto" />
+              <img src="/images/img1.png" alt="item" className="w-1/4 h-auto" />
 
               <p className=" w-1/2  font-bold p-10">
                 THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS IN
@@ -32,10 +30,13 @@ export default function Marketplace() {
               </span>
             </span>
           </div>
-          <div className=" src\assets\images\img1.png ">
-            {" "}
+          <div className="pb-12 pl-14 pt-14 rounded-md ">
             <span className=" flex flex-row ">
-              <img className="w-1/4 h-24 p-15 " src=" " alt="item"></img>
+              <img
+                className="w-1/4 h-auto p-15 "
+                src="/images/img3.png "
+                alt="item"
+              ></img>
               <p className=" w-1/2  font-bold p-10">
                 THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS IN
                 THE THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS
@@ -49,10 +50,13 @@ export default function Marketplace() {
               </span>
             </span>
           </div>
-          <div className=" src\assets\images\img1.png ">
-            {" "}
+          <div className=" pb-12 pl-14 pt-14 rounded-2xl ">
             <span className=" flex flex-row ">
-              <img className="w-1/4 h-24 p-15 " src=" " alt="item"></img>
+              <img
+                className="w-1/4 h-auto pb-12 p-15 rounded-bl-lg "
+                src="/images/img2.png "
+                alt="item"
+              ></img>
               <p className=" w-1/2  font-bold p-10">
                 THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS IN
                 THE THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS
