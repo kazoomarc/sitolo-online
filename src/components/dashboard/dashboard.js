@@ -17,10 +17,11 @@ export default function Dashboard(props) {
           className="inline-flex justify-center rounded-lg text-sm font-semibold py-2 px-4 bg-slate-900 text-white hover:bg-slate-700 pointer-events-auto"
           onClick={props.onClick}
           style={{
-            backgroundColor: props.bg,
+            backgroundColor: 'blue',
             color: props.color,
             width: props.width,
-          }}
+          }
+        }
         >
           <NavLink to={props.link}>View More</NavLink>
         </button>
@@ -50,5 +51,6 @@ function PageDashboard() {
         </div>
       </div>
     </div>
+
   );
 }
