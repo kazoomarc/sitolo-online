@@ -11,7 +11,9 @@ export default function Signup() {
     <>
       <NavTop title="Signup" />
       <MainWrapper>
-        <SignupForm />
+        <SignupFormWrapper>
+          <SignupForm />
+        </SignupFormWrapper>
       </MainWrapper>
     </>
   );
@@ -20,7 +22,7 @@ export default function Signup() {
 export function SignupForm() {
   return (
     <>
-      <form action="/signup" className="max-w-[20rem]">
+      <form action="/signup" className="max-w-[35rem]">
         <div className="mt-8">
           <label for="fname">Full Name</label>
           <InputBox type="text" text="full name" />
@@ -46,5 +48,15 @@ export function SignupForm() {
         </div>
       </form>
     </>
+  );
+}
+
+export function SignupFormWrapper({ children }) {
+  return (
+    <div className="">
+      <div className="flex items-center justify-center max-w-6xl mx-auto px-8 overflow-hidden-d">
+        {children}
+      </div>
+    </div>
   );
 }
