@@ -10,64 +10,64 @@ export default function Marketplace() {
       <NavTop title="Marketplace" />
       <MainWrapper>
         <h1 className="  font-semibold pb-10 pt-5 font text-2xl ">
-          SITOLO Marketplace
+          Sitolo Marketplace
         </h1>
         <Card width="100%">
-          <div className="pb-12 pl-14 pt-14 rounded-md ">
-            <span className=" flex flex-row ">
-              <img src="/images/img1.png" alt="item" className="w-1/4 h-auto" />
+          <div className="flex pb-4 pl-14 pt-14 rounded-md  ">
+            <span className=" flex flex-row  ">
+              <img
+                src="/images/img1.png"
+                alt="item"
+                className="w-36 rounded-lg h-15"
+              />
 
-              <p className=" w-1/2  font-bold p-10">
-                THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS IN
-                THE THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS
-                IN THE STOCK Price k5,000
+              <p className=" w-1/2  font pl-10 pr-6 align-middle">
+                The available products in the stocks the available products in
+                the stocks the available products in the stocks like stockings
+                and stockings.
+                <p className="pt-9">Price:MWK 2,500</p>
               </p>
-              <span className="pt-14">
-                <Button
-                  text="reserved"
-                  classname="flex flex-col w-1/4 flex-center pt-10"
-                ></Button>
-              </span>
+              <div className="  pt-24 ">
+                <Button text="reserve" classname="  w-1/4 "></Button>
+              </div>
             </span>
           </div>
-          <div className="pb-12 pl-14 pt-14 rounded-md ">
-            <span className=" flex flex-row ">
+          <div className="flex pb-4 pl-14 pt-14 rounded-md  ">
+            <span className=" flex flex-row  ">
               <img
-                className="w-1/4 h-auto p-15 "
-                src="/images/img3.png "
+                src="/images/img2.png"
                 alt="item"
-              ></img>
-              <p className=" w-1/2  font-bold p-10">
-                THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS IN
-                THE THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS
-                IN THE STOCK
+                className="w-36 rounded-lg h-15"
+              />
+
+              <p className=" w-1/2  font pl-10 pr-6 align-middle">
+                The available products in the stocks the available products in
+                the stocks the available products in the stocks like stockings
+                and stockings.
+                <p className="pt-9">Price:MWK 2,500</p>
               </p>
-              <span className="pt-14">
-                <Button
-                  text="reserved"
-                  classname="flex flex-col w-1/4 flex-center pt-14"
-                ></Button>
-              </span>
+              <div className="  pt-24 ">
+                <Button text="reserve" classname="  w-1/4 "></Button>
+              </div>
             </span>
           </div>
-          <div className=" pb-12 pl-14 pt-14 rounded-2xl ">
-            <span className=" flex flex-row ">
+          <div className="flex pb-4 pl-14 pt-14 rounded-md  ">
+            <span className=" flex flex-row  ">
               <img
-                className="w-1/4 h-auto pb-12 p-15 rounded-bl-lg "
-                src="/images/img2.png "
+                src="/images/img3.png"
                 alt="item"
-              ></img>
-              <p className=" w-1/2  font-bold p-10">
-                THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS IN
-                THE THE AVAILABLE PRODUCTS IN THE STOCK THE AVAILABLE PRODUCTS
-                IN THE STOCK
+                className="w-36 rounded-lg h-15"
+              />
+
+              <p className=" w-1/2  font pl-10 pr-6 align-middle">
+                The available products in the stocks the available products in
+                the stocks the available products in the stocks like stockings
+                and stockings.
+                <p className="pt-9">Price:MWK 2,500</p>
               </p>
-              <span className="pt-14">
-                <Button
-                  text="reserved"
-                  classname="flex flex-col w-1/4 flex-center pt-14"
-                ></Button>
-              </span>
+              <div className="  pt-24 ">
+                <Button text="reserve" classname="  w-1/4 "></Button>
+              </div>
             </span>
           </div>
         </Card>
