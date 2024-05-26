@@ -1,8 +1,8 @@
 # SITOLO ONLINE(GROUP 26 PROJECT)
 
-- Repository: [github-repo-sitolo-online](https://github.com/kazoomarc/sitolo-online) :link https://github.com/kazoomarc/sitolo-online
-- Deployed site: [sitolo-online](https://sitolo-online.netlify.app/) :link https://sitolo-online.netlify.app/
-- Prototype: [figma-prototype](https://www.figma.com/proto/mOWt2wiOEMlK7rJJ8867eD/GROUP-26-PROTOTYPE?node-id=26-16&starting-point-node-id=26%3A16&scaling=scale-down) :link https://www.figma.com/proto/mOWt2wiOEMlK7rJJ8867eD/GROUP-26-PROTOTYPE?node-id=26-16&starting-point-node-id=26%3A16&scaling=scale-down
+- Repository: [github-repo-sitolo-online](https://github.com/kazoomarc/sitolo-online)
+- Deployed site: [sitolo-online](https://sitolo-online.netlify.app/)
+- Prototype: [figma-prototype](https://www.figma.com/proto/mOWt2wiOEMlK7rJJ8867eD/GROUP-26-PROTOTYPE?node-id=26-16&starting-point-node-id=26%3A16&scaling=scale-down)
 
 ## Introduction
 
