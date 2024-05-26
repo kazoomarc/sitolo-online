@@ -11,7 +11,7 @@ export default function NavTop(props) {
               {/* (// logo)  */}
               <div>
                 <a
-                  href="/home"
+                  href="/"
                   className="flex items-center py-7 px-2 text-gray-700"
                 >
                   <svg
