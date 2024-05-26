@@ -1,7 +1,7 @@
 // import { NavLink } from 'react-router-dom';
-import NavTop from "../../common-components/top-nav";
-import MainWrapper from "../../common-components/main-wrapper";
-import "./products.css";
+import NavTop from '../../common-components/top-nav';
+import MainWrapper from '../../common-components/main-wrapper';
+import './products.css';
 
 export default function Products() {
   return (
@@ -17,40 +17,40 @@ export default function Products() {
 const ProductTable = () => {
   const products = [
     {
-      name: "example Product",
+      name: 'example Product',
       available: 10,
-      price: "K100",
-      expiryDate: "Expiry Date",
+      price: 'K100',
+      expiryDate: 'Expiry Date',
     },
     {
-      name: "example Product",
+      name: 'example Product',
       available: 20,
-      price: "K200",
-      expiryDate: "Expiry Date",
+      price: 'K200',
+      expiryDate: 'Expiry Date',
     },
     {
-      name: "example Product",
+      name: 'example Product',
       available: 30,
-      price: "K300",
-      expiryDate: "Expiry Date",
+      price: 'K300',
+      expiryDate: 'Expiry Date',
     },
     {
-      name: "example Product",
+      name: 'example Product',
       available: 40,
-      price: "K400",
-      expiryDate: "Expiry Date",
+      price: 'K400',
+      expiryDate: 'Expiry Date',
     },
     {
-      name: "example Product",
+      name: 'example Product',
       available: 50,
-      price: "K500",
-      expiryDate: "Expiry Date",
+      price: 'K500',
+      expiryDate: 'Expiry Date',
     },
     {
-      name: "example Product",
+      name: 'example Product',
       available: 60,
-      price: "K600",
-      expiryDate: "Expiry Date",
+      price: 'K600',
+      expiryDate: 'Expiry Date',
     },
   ];
 
