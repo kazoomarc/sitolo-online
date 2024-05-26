@@ -5,7 +5,7 @@
 
 ## Introduction
 
-SITOLO ONLINE is a react app built with tailwindcss that serves as an online sales of point terminal and inventory management system.
+SITOLO ONLINE is a react app built with tailwindcss that serves as an online point of sale terminal and inventory management system.
 
 ## Members
 
