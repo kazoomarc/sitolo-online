@@ -1,6 +1,7 @@
 # SITOLO ONLINE(GROUP PROJECT)
 
 - Live site: [sitolo-online](https://sitolo-online.netlify.app/)
+- Prototype: [figma-prototype](https://www.figma.com/proto/mOWt2wiOEMlK7rJJ8867eD/GROUP-26-PROTOTYPE?node-id=26-16&starting-point-node-id=26%3A16&scaling=scale-down)
 
 ## Introduction
 
