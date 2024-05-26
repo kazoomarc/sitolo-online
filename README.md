@@ -9,12 +9,12 @@ SITOLO ONLINE is a react app built with tailwindcss that serves as an online sal
 
 ## Members
 
-| Name                | Regnumber     | github profile                                              | Branches Worked |
-| ------------------- | ------------- | ----------------------------------------------------------- | --------------- |
-| Mapira Doreen       | BSC/INF/21/22 | [@Doreeeee](https://github.com/Doreeeee)                    |                 |
-| Manjolo Benjamin    | BED/COM/02/21 | [@probenjamin](https://github.com/probenjamin)              |                 |
-| Mkwezalamba Haulace | BED/COM/05/21 | [mkwezalambahaulace](https://github.com/mkwezalambahaulace) |                 |
-| Mwala Joel          | BSC-COM-10-21 | [@kazoomarc](https://github.com/kazoomarc/)                 |                 |
-| Mponela Acton       | BED/COM/44/21 | [@Actomponela](https://github.com/Actomponela)              |                 |
-| Kasalika Prince     | BED/COM/18/21 | [@PrinceKasalika](https://github.com/PrinceKasalika)        |                 |
-| Kapakasa Precious   | BSC/COM/31/21 | [@mrkapakasa](https://github.com/mrkapakasa)                |                 |
+| Name                | Regnumber     | github profile                                               | Branches Worked                                                                                                    |
+| ------------------- | ------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
+| Mapira Doreen       | BSC/INF/21/22 | [@Doreeeee](https://github.com/Doreeeee)                     | feature/login                                                                                                      |
+| Manjolo Benjamin    | BED/COM/02/21 | [@probenjamin](https://github.com/probenjamin)               | feature/marketplace                                                                                                |
+| Mwala Joel          | BSC-COM-10-21 | [@kazoomarc](https://github.com/kazoomarc/)                  | main _[folder] src/common-components && src/assets_<br/>feature/signup <br/>feature/terminal <br/>feature/settings |
+| Mponela Acton       | BED/COM/44/21 | [@Actomponela](https://github.com/Actomponela)               | feature/products                                                                                                   |
+| Kasalika Prince     | BED/COM/18/21 | [@PrinceKasalika](https://github.com/PrinceKasalika)         | feature/products                                                                                                   |
+| Kapakasa Precious   | BSC/COM/31/21 | [@mrkapakasa](https://github.com/mrkapakasa)                 | feature/dashboard                                                                                                  |
+| Mkwezalamba Haulace | BED/COM/05/21 | [@mkwezalambahaulace](https://github.com/mkwezalambahaulace) | feature/dashboard                                                                                                  |
