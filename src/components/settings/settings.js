@@ -3,7 +3,6 @@ import NavTop from '../../common-components/top-nav';
 import MainWrapper from '../../common-components/main-wrapper';
 import InputBox from '../../assets/input-box';
 import { Button } from '../../assets/button';
-import Card from '../../assets/card';
 
 export default function Settings() {
   return (

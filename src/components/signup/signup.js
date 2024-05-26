@@ -1,8 +1,6 @@
 // import { NavLink } from 'react-router-dom';
 import { Button } from '../../assets/button';
-import Card from '../../assets/card';
 import InputBox from '../../assets/input-box';
-import PearlButton from '../../assets/pearl-btn';
 import MainWrapper from '../../common-components/main-wrapper';
 import NavTop from '../../common-components/top-nav';
 
