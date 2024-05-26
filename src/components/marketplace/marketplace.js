@@ -1,8 +1,8 @@
 // import { NavLink } from 'react-router-dom';
-import NavTop from "../../common-components/top-nav";
-import MainWrapper from "../../common-components/main-wrapper";
-import Card from "../../assets/card";
-import { Button } from "../../assets/button";
+import NavTop from '../../common-components/top-nav';
+import MainWrapper from '../../common-components/main-wrapper';
+import Card from '../../assets/card';
+import { Button } from '../../assets/button';
 
 export default function Marketplace() {
   return (
