@@ -46,18 +46,26 @@ export default function NavTop(props) {
                 >
                   Products
                 </NavLink>
-                <NavLink
-                  to="/settings"
-                  className="py-5 px-1 hover:text-gray-900"
-                >
-                  Settings
-                </NavLink>
 
                 <NavLink
                   to="/terminal"
                   className="py-5 px-1 hover:text-gray-900"
                 >
                   Terminal
+                </NavLink>
+
+                <NavLink
+                  to="/dashboard"
+                  className="py-5 px-1 hover:text-gray-900"
+                >
+                  Dashboard
+                </NavLink>
+
+                <NavLink
+                  to="/settings"
+                  className="py-5 px-1 hover:text-gray-900"
+                >
+                  Settings
                 </NavLink>
               </div>
             </div>
@@ -104,12 +112,17 @@ export default function NavTop(props) {
           <NavLink to="/products" className="py-5 px-1 hover:text-gray-900">
             Products
           </NavLink>
-          <NavLink to="/settings" className="py-5 px-1 hover:text-gray-900">
-            Settings
-          </NavLink>
 
           <NavLink to="/terminal" className="py-5 px-1 hover:text-gray-900">
             Terminal
+          </NavLink>
+
+          <NavLink to="/dashboard" className="py-5 px-1 hover:text-gray-900">
+            Dashboard
+          </NavLink>
+
+          <NavLink to="/settings" className="py-5 px-1 hover:text-gray-900">
+            Settings
           </NavLink>
         </div>
       </nav>
