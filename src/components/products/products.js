@@ -2,13 +2,19 @@
 import NavTop from '../../common-components/top-nav';
 import MainWrapper from '../../common-components/main-wrapper';
 import './products.css';
+import Stock from './Stock';
 
 export default function Products() {
   return (
     <>
       <NavTop />
       <MainWrapper>
+        <br />
+        <br />
+        <br />
+        <br />
         <ProductTable />
+        <Stock />
       </MainWrapper>
     </>
   );
