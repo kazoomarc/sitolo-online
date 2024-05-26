@@ -2,6 +2,7 @@
 import NavTop from "../../common-components/top-nav";
 import MainWrapper from "../../common-components/main-wrapper";
 import "./products.css";
+import Stock from './Stock';
 
 export default function Products() {
   return (
@@ -9,6 +10,7 @@ export default function Products() {
       <NavTop />
       <MainWrapper>
         <ProductTable />
+        <Stock/>
       </MainWrapper>
     </>
   );
